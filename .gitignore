@@ -1,0 +1,90 @@
+# ------------------------------
+# Visual Studio
+# ------------------------------
+.vs/
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ------------------------------
+# Build folders
+# ------------------------------
+[Bb]in/
+[Oo]ut/
+[Bb]uild/
+x64/
+x86/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# CMake (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# ------------------------------
+# Intermediate / MSBuild
+# ------------------------------
+*.obj
+*.idb
+*.ipdb
+*.iobj
+*.pch
+*.pdb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.log
+*.tmp
+*.cache
+*.rsp
+
+# ------------------------------
+# Executables & libraries
+# ------------------------------
+*.exe
+*.dll
+*.lib
+*.exp
+*.app
+*.so
+*.dylib
+
+# ------------------------------
+# Vulkan / shader compiled output
+# ------------------------------
+*.spv
+*.spirv
+
+# ------------------------------
+# IntelliSense / browsing
+# ------------------------------
+*.opendb
+*.browse.VC.db
+
+# ------------------------------
+# OS junk
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Package managers (optional)
+# ------------------------------
+.vcpkg/
+packages/
+.nuget/
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
